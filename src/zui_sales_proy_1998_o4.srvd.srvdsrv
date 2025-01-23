@@ -1,0 +1,5 @@
+@EndUserText.label: 'Service Def ZC_SALES_PROY_1998'
+define service ZUI_SALES_PROY_1998_O4 {
+  expose ZC_SALES_PROY_1998 as Sales;
+  expose z_c_items_1998     as Items;
+}

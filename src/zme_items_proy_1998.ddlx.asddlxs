@@ -1,0 +1,21 @@
+@Metadata.layer: #CORE
+@UI: { headerInfo: { typeName: 'Item',
+                     typeNamePlural: 'Items',
+                     title: { type: #STANDARD,
+                              value: 'Id' } } }
+annotate entity z_c_items_1998 with 
+{
+  @UI.facet: [{ id: 'Item',
+                purpose: #STANDARD,
+                type: #IDENTIFICATION_REFERENCE,
+                label: 'Booking',
+                position: 10 }]
+
+  @UI.hidden: true
+   Id;
+  @UI: { lineItem: [{ position: 10,
+                      importance: #HIGH }],
+         identification: [{ position: 10 }]}
+  Name;  
+    
+}
